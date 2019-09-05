@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block content %}
+	{% for post in posts %}
+		<article class="media content-section">
+		  <div class="media-body">
+		    <div class="article-metadata">
+		      <a class="mr-2">Gabriel Lopez</a>
+		      <small class="text-muted">{{ post.date_posted }}</small>
+		    </div>
+		    <h2><a class="article-title">{{ post.title }}</a></h2>
+		    <p class="article-content">{{ post.content }}</p>
+		    {% for output in post.outputs %}
+		      <p class="article-content">{{ output.name }}</p>
+		      <div class="codebox">
+		      <pre>{{ output.code }}</pre>
+			  </div>
+		    {% endfor %}
+		  </div>
+		</article>
+	{% endfor %}
+{% endblock content%}

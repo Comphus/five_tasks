@@ -1,0 +1,4 @@
+I wasnt too sure what was needed for this task exactly.
+I was told to use a simple hello world java program, then put in a breakpoint, and then show where the error would be in the eclipse java stack trace
+
+This image has has my mouse hovered over where in eclipse the java stack trace console would be
