@@ -2,5 +2,5 @@
 
 Bash script that executes code similar to the second python task.
 
-Makes an API call to https://www.alphavantage.co 
+Makes an API call to https://www.alphavantage.co <br>
 Returns the last three months of the monthly time series for Microsoft
