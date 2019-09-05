@@ -1,1 +1,1 @@
-"Five tasks that I was assigned to do. Each folder is its own task"
+Five tasks. Each folder is its own task
