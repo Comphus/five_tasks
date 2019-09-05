@@ -6,8 +6,8 @@ Uses the bootstrap starter template and HTML/CSS examples from https://github.co
 Written by Gabriel Lopez
 """
 from flask import Flask, render_template, url_for
-from Task1 import task_one
-from Task2 import task_two
+from python_tasks.Task1 import task_one
+from python_tasks.Task2 import task_two
 import pandas as pd
 import json
 
